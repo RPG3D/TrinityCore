@@ -25,6 +25,7 @@
 #include <mutex>
 #include <string>
 #include <vector>
+#include "mysql.h"
 
 template <typename T>
 class ProducerConsumerQueue;

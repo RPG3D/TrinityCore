@@ -22,6 +22,7 @@
 #include "Define.h"
 #include "DatabaseEnvFwd.h"
 #include <vector>
+#include "mysql.h"
 
 class TC_DATABASE_API ResultSet
 {

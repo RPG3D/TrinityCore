@@ -86,7 +86,7 @@ find_path(MYSQL_INCLUDE_DIR
     /usr/local/include
     /usr/local/include/mysql
     /usr/local/mysql/include
-    "${PROGRAM_FILES_64}/MySQL/MySQL Server 5.7/include"
+    "${PROGRAM_FILES_64}/MySQL/MySQL Server 8.0/include"
     "${PROGRAM_FILES_64}/MySQL/MySQL Server 5.6/include"
     "${PROGRAM_FILES_64}/MySQL/include"
     "${PROGRAM_FILES_32}/MySQL/MySQL Server 5.7/include"
@@ -130,7 +130,7 @@ if( WIN32 )
       libmysql
     PATHS
       ${MYSQL_ADD_LIBRARIES_PATH}
-      "${PROGRAM_FILES_64}/MySQL/MySQL Server 5.7/lib"
+      "${PROGRAM_FILES_64}/MySQL/MySQL Server 8.0/lib"
       "${PROGRAM_FILES_64}/MySQL/MySQL Server 5.6/lib"
       "${PROGRAM_FILES_64}/MySQL/MySQL Server 5.7/lib/opt"
       "${PROGRAM_FILES_64}/MySQL/MySQL Server 5.6/lib/opt"
@@ -191,7 +191,7 @@ endif( UNIX )
 if( WIN32 )
     find_program(MYSQL_EXECUTABLE mysql
       PATHS
-        "${PROGRAM_FILES_64}/MySQL/MySQL Server 5.7/bin"
+        "${PROGRAM_FILES_64}/MySQL/MySQL Server 8.0/bin"
         "${PROGRAM_FILES_64}/MySQL/MySQL Server 5.6/bin"
         "${PROGRAM_FILES_64}/MySQL/MySQL Server 5.7/bin/opt"
         "${PROGRAM_FILES_64}/MySQL/MySQL Server 5.6/bin/opt"
